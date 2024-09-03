@@ -17,19 +17,19 @@
           <span class="remaining">
             剩余&nbsp;{{ item.remaining }}&nbsp;{{ tag === "day" ? "小时" : "天" }}
           </span>
-
-          <span class="text">
-            <p id="htmer_time">{{ startDateText }}</p>
-          </span>
-
         </div>
-        
+
         <el-progress :text-inside="true" :stroke-width="20" :percentage="parseFloat(item.percentage)" />
       </div>
       <!-- 建站日期 -->
       <div v-if="store.siteStartShow" class="capsule-item start">
         <div class="item-title">{{ startDateText }}</div>
       </div>
+
+      <span class="text">
+        <p id="htmer_time">{{ startDateText }}</p>
+      </span>
+      
     </div>
   </div>
 </template>
