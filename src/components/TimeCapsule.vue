@@ -52,9 +52,6 @@ onBeforeUnmount(() => {
   clearInterval(timeInterval.value);
 });
 
-let startDate = ref(import.meta.env.VITE_SITE_START);
-let startDateText = ref(null);
-
 // 建站日期统计函数
 const siteDateStatistics = (startDate) => {
     const currentDate = new Date();
