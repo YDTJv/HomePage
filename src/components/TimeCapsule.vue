@@ -7,15 +7,23 @@
     <div v-if="timeData" class="all-capsule">
       <div v-for="(item, tag, index) in timeData" :key="index" class="capsule-item">
         <div class="item-title">
+
           <span class="percentage">
             {{ item.name }}已度过
             <strong>{{ item.passed }}</strong>
             {{ tag === "day" ? "小时" : "天" }}
           </span>
+
           <span class="remaining">
             剩余&nbsp;{{ item.remaining }}&nbsp;{{ tag === "day" ? "小时" : "天" }}
           </span>
+
+          <span class="text">
+            <p id="htmer_time">{{ startDateText }}</p>
+          </span>
+
         </div>
+        
         <el-progress :text-inside="true" :stroke-width="20" :percentage="parseFloat(item.percentage)" />
       </div>
       <!-- 建站日期 -->
@@ -23,9 +31,6 @@
         <div class="item-title">{{ startDateText }}</div>
       </div>
     </div>
-    <span class="text">
-        <p id="htmer_time">{{ startDateText }}</p>
-    </span>
   </div>
 </template>
 
@@ -52,25 +57,6 @@ onBeforeUnmount(() => {
   clearInterval(timeInterval.value);
 });
 
-// 建站日期统计函数
-siteDateStatistics = (startDate) => {
-    const currentDate = new Date();
-    const differenceInTime = currentDate.getTime() - startDate.getTime();
-    const differenceInDays = differenceInTime / (1000 * 3600 * 24);
-    const differenceInMonths = differenceInDays / 30;
-    const differenceInYears = differenceInMonths / 12;
-    if (differenceInYears >= 1) {
-        return `本站已经苟活了 ${Math.floor(differenceInYears)} 年 ${Math.floor(differenceInMonths % 12)} 月 ${Math.round(differenceInDays % 30)} 天`;
-    } else if (differenceInMonths >= 1) {
-        return `本站已经苟活了 ${Math.floor(differenceInMonths)} 月 ${Math.round(differenceInDays % 30)} 天`;
-    } else {
-        return `本站已经苟活了 ${Math.round(differenceInDays)} 天`;
-    }
-}
-
-onMounted(() => {
-    startDateText.value = siteDateStatistics(new Date(startDate.value));
-});
 </script>
 
 
