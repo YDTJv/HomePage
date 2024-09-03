@@ -53,7 +53,7 @@ onBeforeUnmount(() => {
 });
 
 // 建站日期统计函数
-const siteDateStatistics = (startDate) => {
+siteDateStatistics = (startDate) => {
     const currentDate = new Date();
     const differenceInTime = currentDate.getTime() - startDate.getTime();
     const differenceInDays = differenceInTime / (1000 * 3600 * 24);
