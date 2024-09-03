@@ -2,22 +2,12 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://blog.imsyy.top/"
+    "link": "https://www.dstbp.com/"
   },
   {
-    "icon": "Cloud",
-    "name": "网盘",
-    "link": "https://pan.imsyy.top/"
-  },
-  {
-    "icon": "CompactDisc",
-    "name": "音乐",
-    "link": "https://music.imsyy.top/"
-  },
-  {
-    "icon": "Compass",
-    "name": "起始页",
-    "link": "https://nav.imsyy.top/"
+    "icon": "LaptopCode",
+    "name": "评论管理",
+    "link": "https://dstbp-waline.vercel.app/ui/login"
   },
   {
     "icon": "Book",
@@ -25,13 +15,29 @@
     "link": "https://web.imsyy.top/"
   },
   {
+    "icon": "Compass",
+    "name": "起始页",
+    "link": "https://limestart.cn/"
+  },
+  {
     "icon": "Fire",
     "name": "今日热榜",
     "link": "https://hot.imsyy.top/"
   },
   {
-    "icon": "LaptopCode",
+    "icon": "BarChart",
     "name": "站点监测",
     "link": "https://status.imsyy.top/"
+  },
+
+  {
+    "icon": "Cloud",
+    "name": "网盘",
+    "link": "https://pan.baidu.com/disk/main"
+  },
+  {
+    "icon": "Music",
+    "name": "音乐",
+    "link": "https://music.imsyy.top/"
   }
 ]
