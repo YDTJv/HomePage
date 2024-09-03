@@ -27,7 +27,7 @@
         </a>
         <!-- 萌ICP备案 -->
         &amp;
-        <font style="font-size:15px"><img style="width:24px;height:24px;margin-bottom:-8px" src="https://moe.blog/content/uploadfile/Links/icp.gov.moe.png" /><a href="https://icp.gov.moe/?keyword=20021214" target="_blank"><span style="color:#ff3333">萌</span><span style="color:#ff8533">I</span><span style="color:#1f991f">C</span><span style="color:#3385ff">P</span><span style="color:#8533ff">备</span> </a><a href="https://icp.gov.moe/?keyword=20248848" target="_blank"> <span style="color:#ff3333">20</span><span style="color:#ff8533">24</span><span style="color:#1f991f">88</span><span style="color:#3385ff">48</span><span style="color:#ff3333">号</span></a></font>
+        <font style="font-size:15px"><img style="width:24px;height:24px;margin-bottom:-8px" src="https://moe.blog/content/uploadfile/Links/icp.gov.moe.png" /><a href="https://icp.gov.moe/?keyword=20021214" target="_blank"><span style="color:#ff3333">萌</span><span style="color:#ff8533">I</span><span style="color:#1f991f">C</span><span style="color:#3385ff">P</span><span style="color:#8533ff">备</span> </a><a href="https://icp.gov.moe/?keyword=20211214" target="_blank"> <span style="color:#ff3333">20</span><span style="color:#ff8533">24</span><span style="color:#1f991f">88</span><span style="color:#3385ff">48</span><span style="color:#ff3333">号</span></a></font>
       </div>
       <div v-else class="lrc">
         <Transition name="fade" mode="out-in">
