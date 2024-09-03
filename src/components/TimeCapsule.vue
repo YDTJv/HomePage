@@ -29,7 +29,7 @@
       <span class="text">
         <p id="htmer_time">{{ startDateText }}</p>
       </span>
-      
+        
     </div>
   </div>
 </template>
