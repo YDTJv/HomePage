@@ -2,13 +2,12 @@
  * @Description: 
  * @Author: DSTBP
  * @Date: 2024-09-03 12:07:14
- * @LastEditTime: 2024-09-03 14:39:19
+ * @LastEditTime: 2024-09-03 14:42:00
  * @LastEditors: DSTBP
 -->
 <template>
   <div class="more-content">
-    ：<br><br>
-
+    <br>
     朋友你好！既然点进这里，想必你想要了解了解我吧！<br>
     简单介绍一下：本人大学牲，没啥才艺，念首诗吧<br><br>
     
