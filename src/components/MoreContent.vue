@@ -7,6 +7,8 @@
 -->
 <template>
   <div class="more-content">
+  自我介绍<br><br>
+本人：
   七分乐观主义 三分浪漫主义~<br>
   喜欢五颜六色 喜欢晴天<br>
   喜欢一切有趣可爱 明亮漂亮的东西<br>
