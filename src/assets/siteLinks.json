@@ -2,12 +2,12 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://www.dstbp.com/"
+    "link": "https://www.ydtjv.cn/"
   },
   {
     "icon": "LaptopCode",
     "name": "评论管理",
-    "link": "https://dstbp-waline.vercel.app/ui/login"
+    "link": "https://waline.ydtjv.cn/ui"
   },
   {
     "icon": "Book",
@@ -22,11 +22,11 @@
   {
     "icon": "Fire",
     "name": "今日热榜",
-    "link": "https://dailyhot.dstbp.net/"
+    "link": "https://dailyhot.ydtjv.cn/"
   },
   {
     "icon": "ChartBar",
     "name": "站点监测",
-    "link": "https://monitors.dstbp.net/"
+    "link": "https://monitors.ydtjv.cn/"
   }
 ]
